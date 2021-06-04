@@ -10,5 +10,9 @@ public class Main {
 
         HelloWorld helloWorld = context.getBean(HelloWorld.class);
         helloWorld.hello();
+        for(Holiday holiday:helloWorld.getHolidays()) {
+            System.out.println(holiday.getGreeting());
+        }
+
     }
 }

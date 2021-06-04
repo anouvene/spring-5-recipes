@@ -19,8 +19,8 @@
         <property name="message" value="How are you?" />
         <property name="holidays">
             <list>
-                <ref local="christmas" />
-                <ref local="newYear" />
+                <ref bean="christmas" />
+                <ref bean="newYear" />
             </list>
         </property>
     </bean>
